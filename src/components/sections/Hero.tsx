@@ -33,7 +33,7 @@ export function Hero() {
                     >
                         Hi, I'm <br />
                         <span className="text-glow bg-linear-to-r from-primary via-purple-500 to-indigo-500 bg-clip-text text-transparent">
-                            Musa Dar...
+                            Musa Dar.....
                         </span>
                     </motion.h1>
 
