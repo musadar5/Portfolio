@@ -41,7 +41,7 @@ const projects = [
     },
     {
         title: "HoloGrip - Final Year Project",
-        description: "VR gloves that let you move and feel objects naturally in virtual reality.",
+        description: "VR gloves that let you move and feel objects naturally in Virtual Reality.",
         tech: ["Virtual Reality", "Finger-Tracking in VR", "Haptic Feedback", "Sense of Touch", "Arduino ESP32", "Servo Motors", "Potentiometer", "C++", "StreamVR", "Meta Quest"],
         image: "/Hologripp.png",
         github: "#projects",

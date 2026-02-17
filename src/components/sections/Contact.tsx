@@ -74,13 +74,32 @@ export function Contact() {
                         viewport={{ once: true }}
                         className="glass-card p-8 rounded-2xl"
                     >
-                        <form className="space-y-6">
+                        <form
+                            action={async (formData) => {
+                                const { sendEmail } = await import("@/app/actions/send-email");
+                                const toast = (await import("react-hot-toast")).default;
+
+                                const result = await sendEmail(formData);
+
+                                if (result?.error) {
+                                    toast.error(result.error);
+                                } else {
+                                    toast.success("Message sent successfully!");
+                                    // Reset form manually or reload
+                                    (document.getElementById("contact-form") as HTMLFormElement)?.reset();
+                                }
+                            }}
+                            id="contact-form"
+                            className="space-y-6"
+                        >
                             <div className="grid md:grid-cols-2 gap-6">
                                 <div className="space-y-2">
                                     <label htmlFor="name" className="text-sm font-medium text-gray-300">Name</label>
                                     <input
                                         type="text"
+                                        name="name"
                                         id="name"
+                                        required
                                         className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-gray-600"
                                         placeholder="Enter your Name"
                                     />
@@ -89,7 +108,9 @@ export function Contact() {
                                     <label htmlFor="email" className="text-sm font-medium text-gray-300">Email</label>
                                     <input
                                         type="email"
+                                        name="email"
                                         id="email"
+                                        required
                                         className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-gray-600"
                                         placeholder="Enter your Email"
                                     />
@@ -100,6 +121,8 @@ export function Contact() {
                                 <label htmlFor="message" className="text-sm font-medium text-gray-300">Message</label>
                                 <textarea
                                     id="message"
+                                    name="message"
+                                    required
                                     rows={4}
                                     className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-gray-600 resize-none"
                                     placeholder="Enter your message..."
