@@ -19,8 +19,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Premium Portfolio | Creative Developer",
-  description: "A futuristic and minimal portfolio built with Next.js, Three.js, and Tailwind CSS.",
+  title: "Musa Raza Dar | Portfolio",
+  description: "Musa Raza Dar – Building fast, scalable, and user-focused web applications using Next.js, React, and modern technologies.",
 };
 
 export default function RootLayout({
