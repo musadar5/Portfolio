@@ -53,7 +53,7 @@ export function Navbar() {
                         </Link>
                     ))}
                     <Link
-                        href="/resume.pdf"
+                        href="/Resume.pdf"
                         className="px-4 py-2 text-sm font-medium text-white bg-white/10 rounded-full hover:bg-white/20 transition-colors border border-white/5"
                         target="_blank"
                     >
