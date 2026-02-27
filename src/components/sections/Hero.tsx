@@ -55,7 +55,7 @@ export function Hero() {
                         <Button size="lg" glow onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}>
                             View Projects <ArrowRight className="ml-2 h-4 w-4" />
                         </Button>
-                        <Button variant="outline" size="lg" onClick={() => window.open('/Resume.pdf', '_blank')}>
+                        <Button variant="outline" size="lg" onClick={() => window.open('/Musa-Dar-Resume.pdf', '_blank')}>
                             Download CV <Download className="ml-2 h-4 w-4" />
                         </Button>
                     </motion.div>
