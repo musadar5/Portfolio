@@ -7,32 +7,32 @@ import { motion } from "framer-motion";
 const experiences = [
     {
         role: "Associate Software Engineer",
-        company: "WAMO Labs",
+        company: "Six Logics",
         period: "October 2025 - January 2026",
         description: "Developed responsive Next.js applications with improved performance and SEO. Implemented CI/CD pipelines for automated, reliable deployments and containerized apps with Docker to ensure consistent development and production environments. Maintained a 100% on-time delivery record for all tasks.",
         tech: ["React", "Next.js", "TypeScript", "Redux", "CI/CD", "Github Actions", "Docker"],
     },
+    // {
+    //     role: "Associate Software Engineer",
+    //     company: "Six Logics",
+    //     period: "July 2025 - September 2025",
+    //     description: "Developed responsive Next.js applications with enhanced performance and SEO using server-side rendering (SSR), implemented NextAuth for secure authentication, integrated REST APIs, and optimized components for scalability and maintainability.",
+    //     tech: ["TypeScript", "Redux", "React", "Next.js", "Next Auth", "Team Work", "Git/GitHub"],
+    // },
     {
-        role: "Associate Software Engineer",
-        company: "Six Logics",
-        period: "July 2025 - September 2025",
-        description: "Developed responsive Next.js applications with enhanced performance and SEO using server-side rendering (SSR), implemented NextAuth for secure authentication, integrated REST APIs, and optimized components for scalability and maintainability.",
-        tech: ["TypeScript", "Redux", "React", "Next.js", "Next Auth", "Team Work", "Git/GitHub"],
-    },
-    {
-        role: "Software Development Intern",
+        role: "Web Development Intern",
         company: "IBEX",
         period: "June 2024 - August 2024",
-        description: "Built 2+ responsive web applications with Next.js, leveraging server-side rendering (SSR), dynamic routing, and NextAuth for secure authentication. Focused on modern UI/UX, optimized performance, and deployed projects efficiently on Vercel.",
-        tech: ["Next.js", "TypeScript", "MongoDB", "SSR", "NextAuth", "Git/Github", "Vercel"],
+        description: "Built 3+ responsive web applications with Next.js, leveraging server-side rendering (SSR), dynamic routing, and NextAuth for secure authentication. Focused on modern UI/UX, optimized performance, and deployed projects efficiently on Vercel.",
+        tech: ["React", "Node.js", "MongoDB", "Express", "Redux", "Git/Github", "Vercel"],
     },
-    {
-        role: "Software Developer Trainee",
-        company: "NETSOL Inc.",
-        period: "June 2023 - August 2023",
-        description: "Acquired a firsthand experience on how the MERN stack is used in industry projects. Developed 3+ full-stack web applications using MERN, building REST APIs, secure authentication, dynamic React interfaces, and optimized MongoDB backends. Collaborated in Agile teams using Git/GitHub.",
-        tech: ["React", "Node.js", "Express", "MongoDB", "Git/Github", "JWT"],
-    },
+    // {
+    //     role: "Software Developer Trainee",
+    //     company: "NETSOL Inc.",
+    //     period: "June 2023 - August 2023",
+    //     description: "Acquired a firsthand experience on how the MERN stack is used in industry projects. Developed 3+ full-stack web applications using MERN, building REST APIs, secure authentication, dynamic React interfaces, and optimized MongoDB backends. Collaborated in Agile teams using Git/GitHub.",
+    //     tech: ["React", "Node.js", "Express", "MongoDB", "Git/Github", "JWT"],
+    // },
 ];
 
 export function Experience() {
