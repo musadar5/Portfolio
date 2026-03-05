@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 
 const experiences = [
     {
-        role: "Associate Software Engineer",
+        role: "Software Engineering Trainee",
         company: "Six Logics",
-        period: "October 2025 - January 2026",
+        period: "June 2025 - August 2025",
         description: "Developed responsive Next.js applications with improved performance and SEO. Implemented CI/CD pipelines for automated, reliable deployments and containerized apps with Docker to ensure consistent development and production environments. Maintained a 100% on-time delivery record for all tasks.",
         tech: ["React", "Next.js", "TypeScript", "Redux", "CI/CD", "Github Actions", "Docker"],
     },
