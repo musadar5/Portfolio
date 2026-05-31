@@ -5,6 +5,14 @@ import { Container } from "@/components/ui/Container";
 import { motion } from "framer-motion";
 
 const experiences = [
+
+    {
+        role: "Associate Software Engineer",
+        company: "Devsinc",
+        period: "May 2026 - Present",
+        description: "Working full-stack on USA-based projects using Ruby on Rails, building scalable backend systems and dynamic frontends, developing and integrating RESTful APIs, and collaborating with teams to deliver high-performance, maintainable applications.",
+        tech: ["Ruby on Rails", "REST APIs", "PostgreSQL", "Git/GitHub", "Team Work"],
+    },
     {
         role: "Software Engineering Trainee",
         company: "Six Logics",
@@ -12,13 +20,7 @@ const experiences = [
         description: "Developed responsive Next.js applications with improved performance and SEO. Implemented CI/CD pipelines for automated, reliable deployments and containerized apps with Docker to ensure consistent development and production environments. Maintained a 100% on-time delivery record for all tasks.",
         tech: ["React", "Next.js", "TypeScript", "Redux", "CI/CD", "Github Actions", "Docker"],
     },
-    // {
-    //     role: "Associate Software Engineer",
-    //     company: "Six Logics",
-    //     period: "July 2025 - September 2025",
-    //     description: "Developed responsive Next.js applications with enhanced performance and SEO using server-side rendering (SSR), implemented NextAuth for secure authentication, integrated REST APIs, and optimized components for scalability and maintainability.",
-    //     tech: ["TypeScript", "Redux", "React", "Next.js", "Next Auth", "Team Work", "Git/GitHub"],
-    // },
+    
     {
         role: "Web Development Intern",
         company: "IBEX",

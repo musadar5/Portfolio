@@ -37,7 +37,7 @@ export function Navbar() {
         >
             <Container className="flex items-center justify-between">
                 <Link href="/" className="text-2xl font-bold tracking-tighter text-white">
-                    Portfolioooooo<span className="text-primary">.</span>
+                    Portfolio<span className="text-primary">.</span>
                 </Link>
 
                 {/* Desktop Nav */}

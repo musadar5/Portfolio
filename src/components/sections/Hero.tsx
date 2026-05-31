@@ -67,7 +67,7 @@ export function Hero() {
                         className="mt-12 flex gap-6 justify-center md:justify-start text-gray-400"
                     >
                         <a href="https://github.com/musadar5" className="hover:text-white transition-colors"><Github size={24} /></a>
-                        <a href="https://www.linkedin.com/in/musa-dar-454526305" className="hover:text-white transition-colors"><Linkedin size={24} /></a>
+                        <a href="https://www.linkedin.com/in/musa-raza-dar-454526305/" className="hover:text-white transition-colors"><Linkedin size={24} /></a>
                         <a href="https://www.instagram.com/musa_dar5" className="hover:text-white transition-colors"><Instagram size={24} /></a>
                     </motion.div>
                 </div>
