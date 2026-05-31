@@ -5,8 +5,8 @@ import { Container } from "@/components/ui/Container";
 import { motion } from "framer-motion";
 
 const skills = [
-    "React", "Node.js", "Next.js", "TypeScript", "Tailwind CSS",
-    "PostgreSQL", "MongoDB", "Docker", "GitHub Actions", "C/C++", "Python", "GoLang", "Postman"
+    "React", "Node.js", "Next.js", "TypeScript", "Ruby on Rails", "Tailwind CSS",
+    "PostgreSQL", "MongoDB", "Docker", "GitHub Actions", "C/C++", "Javascript", "Ruby", "Python", "GoLang", "Postman"
 ];
 
 export function Skills() {
