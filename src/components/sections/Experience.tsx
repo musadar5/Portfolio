@@ -9,7 +9,7 @@ const experiences = [
     {
         role: "Associate Software Engineer",
         company: "Devsinc",
-        period: "May 2026 - Present",
+        period: "Jan 2026 - Present",
         description: "Working full-stack on USA-based projects using Ruby on Rails, building scalable backend systems and dynamic frontends, developing and integrating RESTful APIs, and collaborating with teams to deliver high-performance, maintainable applications.",
         tech: ["Ruby on Rails", "REST APIs", "PostgreSQL", "Git/GitHub", "Team Work"],
     },
